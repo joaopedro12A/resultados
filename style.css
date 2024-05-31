@@ -23,6 +23,8 @@ body {
     background: var(--resultado-bg);
     text-align: center;
     color:var(--branco);
+
+    border-radius: 0 0 3.22rem 3.2rem;
 }
 
 .resultados h1 {
@@ -53,5 +55,17 @@ body {
     color: var(--light-blue);
 }
 
+.resultados h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+
+}
+
+
+.resultados p {
+    max-width: 26rem;
+    margin-inline: auto;
+    color:var(--light-blue);
+}
 
 
